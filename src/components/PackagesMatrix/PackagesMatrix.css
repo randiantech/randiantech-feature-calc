@@ -1,0 +1,67 @@
+.packages-matrix-container {
+    display: grid;
+    padding: 50px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.packages-matrix-item-container {
+    display: grid;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    grid-template-columns: 250px 2fr 2fr 2fr 50px;
+    background: linear-gradient(145deg, lightgrey, lightgrey);
+}
+
+.packages-matrix-item-container:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+
+.packages-matrix-item-simple {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 22px;
+}
+
+.packages-matrix-item-simple-value {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.packages-matrix-item-column-list-container {
+    position: relative;
+    top: 0;
+}
+
+.packages-matrix-item-column-list-container-item {
+    display: grid;
+    grid-gap: 20px;
+    text-align: left;
+    line-height: 30px;
+    grid-template-columns: 80px 1fr;
+    justify-content: space-evenly;
+}
+
+.packages-matrix-item-column-list-container-item-label-check {
+    display: grid;
+    align-items: center;
+}
+
+.packages-matrix-item-column-list-container-item-name {
+    font-weight: bolder;
+    text-align: left;
+}
+
+.packages-matrix-item-column-list-container-item-label {
+    text-align: left;
+}
+
+.packages-matrix-item-simple-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,35 @@
+.calculator-container {
+    padding: 50px;
+}
+
+.calculator-container-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.calculator-container-title {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.calculator-price-label {
+    display:grid;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    height: 50px;
+    border-radius: 5px;
+    background: grey;
+    transition: transform 200ms ease-in-out;
+    transform-origin: center;
+    font-weight: bolder;
+    cursor: pointer;
+    opacity: 0.9;
+    text-align: left;
+    align-items: center;
+}
+
+.calculator-price-label:hover {
+    transform: scale(1.05);
+  }
